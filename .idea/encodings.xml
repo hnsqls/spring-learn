@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/ls/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ls/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lsssss/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lsssss/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sdasdasda/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sdasdasda/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-ioc-bean/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-ioc-bean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-DI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-DI/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-ioc-ioc0/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-ioc-ioc0/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring_ioc_bean/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring_ioc_bean/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/testttttt/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/testttttt/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitledewqeqwe/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitledewqeqwe/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-ioc0" />
+        <module name="spring-ioc-DI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

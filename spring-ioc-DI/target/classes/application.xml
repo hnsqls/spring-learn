@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.ls.pojo.ArtTeacher" name="artTeacher" primary="true"/>
+    <bean class="com.ls.pojo.ProgramTeacher" name="proTeacher" />
+    <bean class="com.ls.pojo.Student" >
+        <constructor-arg  type="Teacher" ref="artTeacher"/>
+        <constructor-arg  type="String" value="liShuo"/>
+    </bean>
+
+
+
+
+
+    <bean class="com.ls.pojo.StudentList" name="studentList">
+        <constructor-arg name="name">
+            <list>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+
+
+
+    <bean class="com.ls.pojo.SMap" name="sMap">
+        <property name="names">
+            <map>
+                <entry key="1" value="lishuo"/>
+                <entry key="2" value="xiaoming"/>
+                <entry key="3" value="xiaohong"/>
+
+            </map>
+        </property>
+    </bean>
+
+    <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byName"/>
+
+
+
+
+
+
+</beans>
