@@ -130,7 +130,7 @@
         System.out.println(sport1);
 ```
 
-![image-20240103153950495](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103153950495.png)
+![image-20240103153950495](images\image-20240103153950495.png)
 
 ```java
 public class Main {
@@ -146,7 +146,7 @@ public class Main {
 }
 ```
 
-![image-20240103155106920](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103155106920.png)
+![image-20240103155106920](images\image-20240103155106920.png)
 
 
 
@@ -173,7 +173,7 @@ public class Main {
 }
 ```
 
-![image-20240103155751431](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103155751431.png)
+![image-20240103155751431](images\image-20240103155751431.png)
 
 
 
@@ -204,7 +204,7 @@ public class Main {
 }
 ```
 
-![image-20240103161804075](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103161804075.png)
+![image-20240103161804075](images\image-20240103161804075.png)
 
 *  相反原型模式下，需要使用该对象时才会通过IOC创建，相当与new了一个对象
 
@@ -229,7 +229,7 @@ public class Main {
 
 ```
 
-![image-20240103162645597](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103162645597.png)
+![image-20240103162645597](images\image-20240103162645597.png)
 
 **------------------------------------------不明白为什么没有我没创建了------------------------------------------------------------------------------------**
 
@@ -256,7 +256,7 @@ public class Main {
 
 ```
 
-![image-20240103165345316](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103165345316.png)
+![image-20240103165345316](images\image-20240103165345316.png)
 
 
 
@@ -286,7 +286,7 @@ public class Main {
 
 ```
 
-![image-20240103165726513](C:\Users\26611\AppData\Roaming\Typora\typora-user-images\image-20240103165726513.png)
+![image-20240103165726513](images\image-20240103165726513.png)
 
 
 
@@ -374,7 +374,7 @@ public class Main {
 }
 ```
 
-![image-20240104132421801](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104132421801.png)
+![image-20240104132421801](images\spring学习.assets\image-20240104132421801.png)
 
 * 没有set方法会报错，说明了IOC容器DI注入的时候使用的setter方法（property）
 * ref 是引用已经创建的bean对象，value是给普通属性赋值
@@ -390,7 +390,7 @@ public class Main {
     </bean>
 ```
 
-![image-20240104133225312](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104133225312.png)
+![image-20240104133225312](images\spring学习.assets\image-20240104133225312.png)
 
 这就是IOC的好处
 
@@ -435,7 +435,7 @@ public class Student {
     </bean>
 ```
 
-![image-20240104134530191](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104134530191.png)
+![image-20240104134530191](images\spring学习.assets\image-20240104134530191.png)
 
 * 第二种构造方式是通过参数名字
 
@@ -447,7 +447,7 @@ public class Student {
     </bean>
 ```
 
-![image-20240104135152983](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104135152983.png)
+![image-20240104135152983](images\spring学习.assets\image-20240104135152983.png)
 
 警告：Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ls.pojo.Student
 
@@ -465,13 +465,13 @@ public class Student {
     </bean>
 ```
 
-![image-20240104135947115](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104135947115.png)
+![image-20240104135947115](images\spring学习.assets\image-20240104135947115.png)
 
 
 
 * 还有一种自动匹配的，官方是这样描述
 
-<img src="E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104140114853.png" alt="image-20240104140114853" style="zoom:150%;" />
+<img src="images\spring学习.assets\image-20240104140114853.png" alt="image-20240104140114853" style="zoom:150%;" />
 
 官方文档：[依赖注入 ：： Spring Framework](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
 
@@ -514,7 +514,7 @@ public class StudentList {
 </bean>
 ```
 
-![image-20240104142433223](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104142433223.png)
+![image-20240104142433223](images\spring学习.assets\image-20240104142433223.png)
 
 或者
 
@@ -602,7 +602,7 @@ public class Main {
     </bean>
 ```
 
-![image-20240104143746711](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104143746711.png)
+![image-20240104143746711](images\spring学习.assets\image-20240104143746711.png)
 
 参数构造器DI参考第一个list
 
@@ -643,14 +643,14 @@ public class Main {
 <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byType"/>
 ```
 
-![image-20240104155112851](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104155112851.png)
+![image-20240104155112851](images\spring学习.assets\image-20240104155112851.png)
 
 ```xml
 <bean class="com.ls.pojo.ArtTeacher" name="artTeacher" />
 <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byType"/>
 ```
 
-![image-20240104155209716](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104155209716.png)
+![image-20240104155209716](images\spring学习.assets\image-20240104155209716.png)
 
 * Bytype会自动根据IOC里面已经存在的bean去注入要装配的bean**类型相同是指要装配的bean里面的属性与IOC里面已经注册过的bean类型相同**
 
@@ -664,7 +664,7 @@ public class Main {
 
 autowire-condidate = "false" ,意思是自动写入候选项，false，不在候选项中
 
-![image-20240104160541853](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104160541853.png)
+![image-20240104160541853](images\spring学习.assets\image-20240104160541853.png)
 
 ```xml
 <bean class="com.ls.pojo.ArtTeacher" name="artTeacher" primary="true"/>
@@ -672,7 +672,7 @@ autowire-condidate = "false" ,意思是自动写入候选项，false，不在候
 <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byType"/>
 ```
 
-![image-20240104160712389](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104160712389.png)
+![image-20240104160712389](images\spring学习.assets\image-20240104160712389.png)
 
 primary ="true"; 优先装备这个
 
@@ -704,7 +704,7 @@ public class AutoStu {
 <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byType" />
 ```
 
-![image-20240104162136997](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104162136997.png)
+![image-20240104162136997](images\spring学习.assets\image-20240104162136997.png)
 
 没有报错，但是没有注入进去值
 
@@ -739,7 +739,7 @@ public class AutoStu {
  <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byName"/>
 ```
 
-![image-20240104162900125](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104162900125.png)
+![image-20240104162900125](images\spring学习.assets\image-20240104162900125.png)
 
 没有装配上是怎么回事，**byname是看set方法名字的name和IOCbean的name，上述setTeacher和IOC—bean——name没有一致的当然没有注入成功**
 
@@ -772,7 +772,7 @@ public class AutoStu {
  <bean class="com.ls.pojo.AutoStu"  name="autoStu" autowire="byName"/>
 ```
 
-![image-20240104163704173](E:\Back-end-development\SSM\spring\spring-code\笔记\images\spring学习.assets\image-20240104163704173.png)
+![image-20240104163704173](images\spring学习.assets\image-20240104163704173.png)
 
 * byname更没有歧义，但是需要修改set的名字
 
@@ -780,3 +780,9 @@ public class AutoStu {
 
 * 还有个构造器自动装配，其实也是bytype
 * 参考：[Autowiring Collaborators ：： Spring Framework](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-autowire.html#beans-factory-autowire-candidate)
+
+
+
+
+
+![image-20240104172846671](images/spring学习.assets/image-20240104172846671.png)
