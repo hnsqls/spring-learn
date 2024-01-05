@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/testttttt/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <bytecodeTargetLevel>
+      <module name="spring-code" target="1.8" />
+      <module name="spring-ioc-DI" target="1.8" />
+      <module name="spring-ioc-ioc0" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

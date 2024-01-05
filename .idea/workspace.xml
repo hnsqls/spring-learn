@@ -65,12 +65,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code/gitcode/ls&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/code/gitcode/ls",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Back-end development\SSM\spring\spring-code\spring-ioc-ioc0\src\main\resources" />
@@ -117,8 +120,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -160,6 +163,11 @@
           <url>file://$PROJECT_DIR$/spring-ioc-ioc0/src/main/java/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-ioc-DI/src/main/java/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
