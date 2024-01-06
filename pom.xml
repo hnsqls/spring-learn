@@ -12,6 +12,7 @@
 
         <module>spring-ioc-ioc0</module>
         <module>spring-ioc-DI</module>
+        <module>spring-ioc-annotation</module>
     </modules>
 
 

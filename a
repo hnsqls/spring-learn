@@ -1,0 +1,10 @@
+[33m5813125[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: commit (merge): text
+[33m14006f7[m HEAD@{1}: commit: test
+[33ma480c47[m HEAD@{2}: commit: git push 出错， git pull 下拉本地 重新 git push
+[33m8643d7a[m HEAD@{3}: pull: Merge made by the 'ort' strategy.
+[33mf5f6e2c[m HEAD@{4}: commit: 发现我在github上的笔记上的图片不能看，发现路径是绝对路径，改为相对路径
+[33mae3a424[m HEAD@{5}: commit: 提交去除.idea文件 target文件
+[33ma505abc[m HEAD@{6}: commit: add DI，setter 构造器 特殊类型注入入List Map autowrite bytype/byname
+[33m180c4d0[m HEAD@{7}: commit: 第二次提交，spring-ioc-bean的学习代码，主要有bean的注册和调用，需要注意的有单例和原理懒加载 name class
+[33m5f9dada[m HEAD@{8}: commit: 第一次提交测试项目是否加入到git
+[33m1702239[m HEAD@{9}: clone: from github.com:hnsqls/spring-learn.git
