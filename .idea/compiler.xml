@@ -15,10 +15,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-code" target="1.8" />
-      <module name="spring-ioc-annotation" target="1.8" />
-      <module name="spring-ioc-DI" target="1.8" />
-      <module name="spring-ioc-ioc0" target="1.8" />
+      <module name="spring-code" target="17" />
+      <module name="spring-ioc-annotation" target="17" />
+      <module name="spring-ioc-DI" target="17" />
+      <module name="spring-ioc-ioc0" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
