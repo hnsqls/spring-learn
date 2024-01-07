@@ -13,6 +13,8 @@
         <module>spring-ioc-ioc0</module>
         <module>spring-ioc-DI</module>
         <module>spring-ioc-annotation</module>
+        <module>spring-aop-xml</module>
+        <module>spring-aop-annotation</module>
     </modules>
 
 
@@ -23,6 +25,7 @@
             <artifactId>spring-context</artifactId>
             <version>6.0.11</version>
         </dependency>
+
     </dependencies>
 
 </project>

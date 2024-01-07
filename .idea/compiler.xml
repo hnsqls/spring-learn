@@ -11,14 +11,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-annotation" />
         <module name="spring-ioc-ioc0" />
+        <module name="spring-aop-xml" />
         <module name="spring-ioc-DI" />
+        <module name="spring-aop-annotation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-code" target="17" />
-      <module name="spring-ioc-annotation" target="17" />
-      <module name="spring-ioc-DI" target="17" />
-      <module name="spring-ioc-ioc0" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
