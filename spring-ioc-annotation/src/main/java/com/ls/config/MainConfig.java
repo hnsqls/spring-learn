@@ -2,14 +2,15 @@ package com.ls.config;
 
 
 import com.ls.pojo.Cat;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import com.ls.pojo.People;
+import org.springframework.context.annotation.*;
 
 @Configuration
+@ComponentScan("com.ls.pojo")
 public class MainConfig {
 
-    @Bean(name = "cat",initMethod = "",destroyMethod = "",autowireCandidate = false,)
-    public  Cat GetCat(){
-        return  new  Cat();
-    }
+//    @Lazy(value = true)   //lazy-init
+//    @Scope("prototype")   //scope
+//    @DependsOn("")           //优先加载
+
 }

@@ -801,7 +801,7 @@ public class AutoStu {
 
 
 
-# 6 注解开发
+# 6 注解开发—IOC
 
 * 因为在开发中使用xml文件配置的话，bean会很多，xml文件会被bean充满，而且会继续庞大下去---------》解决这个问题的方法就是注解开发
 
@@ -946,11 +946,101 @@ xml文件和注解的比较
 
 ![image-20240106204712048](images/spring学习.assets/image-20240106204712048.png)
 
-name也就是别名获取的时候要强制转换
+* name也就是别名获取的时候要强制转换
 
 但是好像还是xml的功能更多，能设置name ,别名，id,初始化方法，破坏方法，自动装配，继承，懒加载，DI，scope
 
-在注解开发中@Bean能做的也就上图那么多还有其他组件
+在注解开发中@Bean能做的也就上图那么多其他配置有其他注解完成还
+
+```java
+    @Lazy(value = true)   //lazy-init
+    @Scope("prototype")   //scope
+    @DependsOn("dog")           //优先加载
+    @Bean(name = "cat",initMethod = "",destroyMethod = "",autowireCandidate = false,)
+    public  Cat GetCat(){
+        return  new  Cat();
+    }
+```
+
+>@Component 
+
+**@Component 和@Componentscan 配合使用**
+
+使用bean还要自己new对象，使用Component，就会自动注册成bean，但是需要在配置类上添加@ComponentScan 扫描需要注册bean的包，会将报下所有添加@Component的注册成bean
+
+```java
+@Component
+public class Cat implements  animal{
+    @Override
+    public void eat() {
+        System.out.println("我是小猫，我要吃小鱼~");
+    }
+}
+```
+
+```java
+@Configuration
+@ComponentScan("com.ls.pojo")
+public class MainConfig {
+   
+}
+```
+
+```java
+public class MainTest {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(MainConfig.class);
+        Cat bean =  context.getBean(Cat.class);
+        System.out.println(bean);
+        bean.eat();
+
+    }
+}
+```
+
+![image-20240107132931316](images/spring学习.assets/image-20240107132931316.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+> DI
+
+对于那些我们需要通过构造方法或是Setter完成依赖注入的Bean，比如：
+
+```java
+<bean name="teacher" class="com.test.bean.ProgramTeacher"/>
+<bean name="student" class="com.test.bean.Student">
+    <property name="teacher" ref="teacher"/>
+</bean>
+```
+
+像这种需要引入其他Bean进行的注入，我们可以直接将其作为形式参数放到方法中：
+
+```java 
+@Configuration
+public class MainConfiguration {
+    @Bean
+    public Teacher teacher(){
+        return new Teacher();
+    }
+
+    @Bean
+    public Student student(Teacher teacher){
+        return new Student(teacher);
+    }
+}
+```
+
+
 
 > **装配bean**
 

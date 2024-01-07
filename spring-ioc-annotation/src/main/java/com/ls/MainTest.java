@@ -12,12 +12,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MainTest {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(MainConfig.class);
-        Cat bean = (Cat) context.getBean("cat");
+        Cat bean =  context.getBean(Cat.class);
         System.out.println(bean);
         bean.eat();
 
     }
-
-
-
 }

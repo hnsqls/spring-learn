@@ -1,5 +1,8 @@
 package com.ls.pojo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Dog implements  animal{
     private  String name;
 
